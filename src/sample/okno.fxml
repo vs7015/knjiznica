@@ -50,7 +50,7 @@
       </AnchorPane>
    </center>
    <bottom>
-      <Label fx:id="status" text="Status:" BorderPane.alignment="CENTER_LEFT">
+      <Label fx:id="status" text="Status: " BorderPane.alignment="CENTER_LEFT">
          <BorderPane.margin>
             <Insets left="15.0" />
          </BorderPane.margin>
