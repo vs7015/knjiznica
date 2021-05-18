@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ZMStrankaSiIzposodiKnjigo">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="tabela" layoutX="76.0" layoutY="125.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="300.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="100.0" />
+            <TextField fx:id="iskalnoPolje" layoutX="43.0" layoutY="66.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="275.0" />
+            <Label fx:id="user" layoutX="430.0" layoutY="14.0" prefHeight="17.0" prefWidth="155.0" text="Uporabnik:" AnchorPane.leftAnchor="430.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0" />
+            <TextArea fx:id="opis" layoutX="14.0" layoutY="288.0" prefHeight="200.0" prefWidth="200.0" wrapText="true" AnchorPane.bottomAnchor="150.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="285.0" AnchorPane.topAnchor="330.0" />
+            <Label layoutX="15.0" layoutY="279.0" text="Opis knjige:" AnchorPane.topAnchor="310.0" />
+            <Label fx:id="knjigaNaVoljo" layoutX="326.0" layoutY="320.0" text="Status knjige:" AnchorPane.leftAnchor="350.0" AnchorPane.topAnchor="350.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Button fx:id="izposodi" layoutX="17.0" layoutY="442.0" mnemonicParsing="false" text="Izposodi" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="450.0" />
+            <Button fx:id="isci" layoutX="530.0" layoutY="66.0" mnemonicParsing="false" text="Išči" AnchorPane.leftAnchor="510.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="275.0" />
+            <TextField fx:id="ime" layoutX="15.0" layoutY="20.0" prefHeight="25.0" prefWidth="105.0" promptText="Ime || username" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0" />
+            <TextField fx:id="priimek" layoutX="130.0" layoutY="20.0" prefHeight="25.0" prefWidth="105.0" promptText="Priimek" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="15.0" />
+            <Button fx:id="prijava" layoutX="360.0" layoutY="20.0" mnemonicParsing="false" text="Prijava" AnchorPane.leftAnchor="360.0" AnchorPane.topAnchor="15.0" />
+            <PasswordField fx:id="geslo" layoutX="220.0" layoutY="15.0" prefHeight="25.0" prefWidth="105.0" promptText="Geslo" AnchorPane.leftAnchor="245.0" AnchorPane.topAnchor="15.0" />
+            <Button fx:id="buttonKnjige1" layoutX="14.0" layoutY="60.0" mnemonicParsing="false" text="Izpiši seznam knjig" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="60.0" />
+         </children>
+      </AnchorPane>
+   </center>
+   <bottom>
+      <Label fx:id="status" text="Status:" BorderPane.alignment="CENTER_LEFT">
+         <BorderPane.margin>
+            <Insets left="15.0" />
+         </BorderPane.margin>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </bottom>
+</BorderPane>
