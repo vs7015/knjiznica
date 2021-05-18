@@ -41,7 +41,7 @@
                </font></Label>
             <Button fx:id="izposodi" layoutX="17.0" layoutY="442.0" mnemonicParsing="false" text="Izposodi" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="450.0" />
             <Button fx:id="isci" layoutX="530.0" layoutY="66.0" mnemonicParsing="false" text="Išči" AnchorPane.leftAnchor="510.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="275.0" />
-            <TextField fx:id="ime" layoutX="15.0" layoutY="20.0" prefHeight="25.0" prefWidth="105.0" promptText="Ime || username" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0" />
+            <TextField fx:id="ime" layoutX="15.0" layoutY="20.0" prefHeight="25.0" prefWidth="105.0" promptText="Ime" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0" />
             <TextField fx:id="priimek" layoutX="130.0" layoutY="20.0" prefHeight="25.0" prefWidth="105.0" promptText="Priimek" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="15.0" />
             <Button fx:id="prijava" layoutX="360.0" layoutY="20.0" mnemonicParsing="false" text="Prijava" AnchorPane.leftAnchor="360.0" AnchorPane.topAnchor="15.0" />
             <PasswordField fx:id="geslo" layoutX="220.0" layoutY="15.0" prefHeight="25.0" prefWidth="105.0" promptText="Geslo" AnchorPane.leftAnchor="245.0" AnchorPane.topAnchor="15.0" />
